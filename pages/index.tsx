@@ -96,7 +96,7 @@ const Home: NextPage = () => {
           {/* Education Section */}
           <div></div>
           <div className="col-span-4 px-4">
-            <h1 className="pt-8 pb-4 text-3xl font-light">Education</h1>
+            <h1 className="pt-8 pb-0 text-3xl font-light underline">Education</h1>
           </div>
 
           <div className="md: pl-4 text-left sm:pl-4 sm:text-left lg:pr-4 lg:text-right">
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
           {/* Experience Section */}
           <div></div>
           <div className="col-span-4 px-4">
-            <h1 className="pt-6 pb-4 text-3xl font-light">Experience</h1>
+            <h1 className="pt-8 pb-0 text-3xl font-light underline">Experience</h1>
           </div>
           
 
