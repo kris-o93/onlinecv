@@ -22,20 +22,21 @@ const Home: NextPage = () => {
         <div className="grid sm:grid-cols-4 lg:grid-cols-5">
           <div></div>
           <div className="col-span-5 px-4">
-            <center><h1 className="font-normal text-5xl pb-4">Kris Oldale</h1></center>
-            <center className="pb-4">
-            <div className="inline-grid gap-2 grid-cols-3">
+            <h1 className="flex justify-center text-center font-normal text-5xl pb-4">Kris Oldale</h1>
+            <div className="flex justify-center gap-1 text-center">
+            
             <div className="leading-sm grid items-center rounded-full border bg-sky-300 px-3 py-1 text-sm uppercase text-grey-700">
               React
             </div>
+            
             <div className="leading-sm grid items-center rounded-full border bg-neutral-700 px-3 py-1 text-sm  uppercase text-gray-50">
               NextJS
             </div>
-            <div className="leading-sm grid cols-3  items-center rounded-full border bg-yellow-300 px-3 py-1 text-sm uppercase text-grey-700">
+            
+            <div className="leading-sm grid cols-3  items-center rounded-full border bg-yellow-300 px-3 py-1 text-xs uppercase text-grey-700">
               JavaScript
             </div>
             </div>
-          </center>
             <p className="py-2 text-justify font-light text-gray-600">
             I’m Kris, I have a variety of experience in multiple sectors and am constantly looking to expand and enhance my skills. 
             I thrive off problems that require creative solutions and enjoy bringing ideas to fruition.
